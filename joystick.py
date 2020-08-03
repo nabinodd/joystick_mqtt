@@ -17,7 +17,7 @@ else:
     controller.init()
     print('[INF] Controller initalized')
 
-broker='localhost'
+broker='192.168.100.53'
 client=mqtt.Client('client1')
 
 
